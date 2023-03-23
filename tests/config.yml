@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build-and-test:
+  buildgit cand-test:
     docker:
       - image: cimg/node:16.18
     steps:
